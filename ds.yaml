@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: mission
-          image: maxwell6051/new1:latest # Image that will be used to containers in the cluster
+          image: maxwell6051/new1:v1 # Image that will be used to containers in the cluster
           imagePullPolicy: Always
           ports:
             - containerPort: 8080 # The port that the container is running on in the cluster
